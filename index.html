@@ -24,6 +24,7 @@
   .slider-val { font-size: 12px; color: #FF5722; min-width: 28px; text-align: right; font-weight: bold; }
   .cb-row { display: flex; align-items: center; gap: 6px; font-size: 12px; margin: 3px 0; cursor: pointer; }
   .cb-row input { accent-color: #FF5722; }
+  .type-button { padding: 3px 8px; margin: 2px; border-radius: 3px; font-size: 12px; text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px  1px 1px #000, 1px  1px 1px #000; }
   #drawer {
     position: fixed; top: 0; right: 0; width: clamp(480px, 33vw, 720px); max-width: 100vw; height: 100vh;
     background: rgba(7, 10, 24, 0.96); border-left: 1px solid rgba(255,255,255,0.08);
@@ -106,10 +107,10 @@
   <h3>ANIMA Knowledge Graph</h3>
   <input id="search" type="text" placeholder="Search nodes..." oninput="searchNodes(this.value)">
   <div>
-    <span style="background:#55A3D7;padding:3px 8px;margin:2px;border-radius:3px;font-size:12px">source</span>
-    <span style="background:#CFB586;padding:3px 8px;margin:2px;border-radius:3px;font-size:12px">entity</span>
-    <span style="background:#E4C7CE;padding:3px 8px;margin:2px;border-radius:3px;font-size:12px">concept</span>
-    <span style="background:#C0E6AB;padding:3px 8px;margin:2px;border-radius:3px;font-size:12px">synthesis</span>
+    <span class="type-button" style="background:#55A3D7;">source</span>
+    <span class="type-button" style="background:#CFB586;">entity</span>
+    <span class="type-button" style="background:#E4C7CE;">concept</span>
+    <span class="type-button" style="background:#C0E6AB;">synthesis</span>
   </div>
   <div class="filter-group">
     <label>Edge Types</label>
