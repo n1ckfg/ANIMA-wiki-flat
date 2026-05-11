@@ -1,0 +1,18 @@
+Original:
+source: #4CAF50
+entity: #2196F3
+concept: #FF9800
+synthesis: #9C27B0
+
+Website:
+source: #93CCEA
+entity: #E6D7B9
+concept: #F1E1E5
+synthesis: #DDF2D1
+
+Modified:
+source: #55A3D7
+entity: #CFB586
+concept: #E4C7CE
+synthesis: #C0E6AB
+
